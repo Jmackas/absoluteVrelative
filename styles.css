@@ -2,6 +2,33 @@ body {
 	font-family: lato;
 	text-align: center;
 	font-size: 150%;
+	margin-left: 10%;
+	margin-right: 10%;
+	    margin-top: 0;
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        margin: initial;
+    }
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+}
+
+.sepOne {
+	background: rgba(211, 211, 211, 0.15);
+	padding: 3% 0 3% 0;
+}
+
+.sepTwo {
+	background: rgba(0,0,0,0);
+	padding: 3% 0 3% 0;
 }
 
 .div100 {
@@ -11,6 +38,8 @@ body {
 .div50 {
 	float: left;
 	width: 50%;
+	transition: 0.5s;
+	padding: 3% 0 3% 0;
 }
 
 .div50 a {
@@ -18,6 +47,7 @@ body {
 	text-decoration: none;
 	color: black;
 	width: 100%;
+
 }
 
 .div50:hover {
@@ -66,9 +96,18 @@ hr {
     background: #e4e4e4;
 }
 
-
+/* footer */
 footer {
 	position: relative;
 	bottom: 0;
 	text-align: initial;
+}
+
+footer h5 {
+	margin: 0;
+}
+
+footer ul {
+	font-size: 80%;
+	margin: 0;
 }
