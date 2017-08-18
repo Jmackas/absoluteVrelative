@@ -21,6 +21,10 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    margin: 0 0 4px 0;
+}
+
 .sepOne, .sepTwo {
     padding: 6% 0 6% 0;
     line-height: 140%;
@@ -96,21 +100,25 @@ pre {
 hr {
     border: none;
     height: 1px;
-    background: #e4e4e4;
+    background: #b8b8b8;
 }
 
 /* footer */
 footer {
-    position: relative;
+    position: inherit;
     bottom: 0;
+    /* background: black; */
+    /* color: white; */
     text-align: initial;
+    padding: 2%;
+}
+
+
+footer a:hover {
+    color: lightblue;
 }
 
 footer h5 {
-    margin: 0;
+margin: 0;
 }
 
-footer ul {
-    font-size: 80%;
-    margin: 0;
-}
