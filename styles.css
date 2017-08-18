@@ -4,11 +4,18 @@ body {
 	font-size: 150%;
 }
 
-.absVrel {
-	
+.div50 {
+	float: left;
+	width: 50%;
 }
 
-.diffGif {
-	display: flex;
-	justify-content: center;
+hr {
+	border: none;
+    height: 1px;
+    background: #e4e4e4;
+}
+
+pre {
+	font-family: liberation mono;
+	color: blue;
 }
